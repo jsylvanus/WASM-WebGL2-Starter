@@ -1,8 +1,8 @@
-#include "stdlib.h"
+#include <stdlib.h>
+
 #include "emscripten.h"
 #include "emscripten/html5.h"
-#include "GL/gl.h"
-#include "GL/glew.h"
+#include "GLES2/gl2.h"
 
 const char* canvasId = "screen";
 
